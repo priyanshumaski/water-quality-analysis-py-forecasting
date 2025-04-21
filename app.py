@@ -10,7 +10,7 @@ st.set_page_config(page_title="💧 Water Quality Forecast", layout="wide")
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("water_potability - 1.csv")
+    df = pd.read_csv("water_potability.csv")
     df['Date'] = pd.to_datetime(df['Year'].astype(str) + '-' + df['Month'].astype(str) + '-01')
     return df
 
