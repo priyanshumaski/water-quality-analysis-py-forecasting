@@ -50,3 +50,4 @@ The model forecasts each feature (`ph`, `Solids`, etc.) using:
 - Forecast future values
 - Visualize next 12 (monthly) or 36 (yearly) data points
 # water-quality-analysis
+# water-quality-analysis
